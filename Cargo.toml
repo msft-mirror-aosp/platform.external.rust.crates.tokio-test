@@ -13,11 +13,11 @@
 [package]
 edition = "2018"
 name = "tokio-test"
-version = "0.4.0"
+version = "0.4.2"
 authors = ["Tokio Contributors <team@tokio.rs>"]
 description = "Testing utilities for Tokio- and futures-based code\n"
 homepage = "https://tokio.rs"
-documentation = "https://docs.rs/tokio-test/0.4.0/tokio_test"
+documentation = "https://docs.rs/tokio-test/0.4.2/tokio_test"
 categories = ["asynchronous", "testing"]
 license = "MIT"
 repository = "https://github.com/tokio-rs/tokio"
@@ -33,7 +33,7 @@ version = "1.0.0"
 version = "0.3.0"
 
 [dependencies.tokio]
-version = "1.0.0"
+version = "1.2.0"
 features = ["rt", "sync", "time", "test-util"]
 
 [dependencies.tokio-stream]
@@ -42,5 +42,5 @@ version = "0.1"
 version = "0.3.0"
 
 [dev-dependencies.tokio]
-version = "1.0.0"
+version = "1.2.0"
 features = ["full"]
