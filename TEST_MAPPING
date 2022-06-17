@@ -5,17 +5,6 @@
       "path": "external/rust/crates/tokio"
     }
   ],
-  "postsubmit": [
-    {
-      "name": "tokio-test_test_tests_block_on"
-    },
-    {
-      "name": "tokio-test_test_tests_io"
-    },
-    {
-      "name": "tokio-test_test_tests_macros"
-    }
-  ],
   "presubmit": [
     {
       "name": "tokio-test_test_tests_block_on"
